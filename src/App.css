@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.container {
+  background-image: url("code.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vscode-button {
+  background-image: url("download.jfif");
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  resize: both;
+  background-color: transparent;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.language-icon {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.language-button {
+  background-color: Transparent;
+  cursor: pointer;
+  padding: 25px 24px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-right-color: white;
+  border-right-width: 8px;
+}
+
+.language-button:hover {
+  box-shadow: 1px 1px 10px 2px white inset;
+}
+
+.button-bar {
+  width: 10%;
+  color: white;
+  padding: 10px 24px;
+  float: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
